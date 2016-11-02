@@ -20,8 +20,7 @@ public class YoutubeConnector {
     private YouTube youtube;
     private YouTube.Search.List query;
 
-    public static final String API_KEY
-            = "AIzaSyDurPnTJXEKqVzq7ERQMwC68uIwHr4We1c";
+    public static final String API_KEY = "Insert your API KEY here";
 
     public YoutubeConnector(Context context) {
         youtube = new YouTube.Builder(new NetHttpTransport(),
